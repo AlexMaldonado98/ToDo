@@ -1,0 +1,50 @@
+.card{
+    width: 17rem;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: -10px 5px 8px gray;
+    min-height: 400px;
+}
+.card-body{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card-img-top{
+    height:150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.list-group{
+    margin-top: 30px;
+
+}
+
+.texto-input{
+    background-color: teal;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.list-group-item{
+    font-size: 25px ;
+    cursor: pointer !important;
+}
+
+.list-group-item:hover{
+    background-color: rgb(207, 207, 207);
+}
+
+.completed{
+    background-color: gray !important;
+    color: #cccccc !important;
+    text-decoration-line: line-through !important;
+}
+.completed:hover{
+    background-color: rgb(96, 96, 96) !important;
+}
